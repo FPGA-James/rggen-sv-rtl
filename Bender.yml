@@ -35,6 +35,6 @@ sources:
   - rggen_axi4lite_skid_buffer.sv
   - rggen_axi4lite_adapter.sv
   - rggen_axi4lite_bridge.sv
-  -rggen_wishbone_if.sv
-  -rggen_wishbone_adapter.sv
-  -rggen_wishbone_bridge.sv
+  - rggen_wishbone_if.sv
+  - rggen_wishbone_adapter.sv
+  - rggen_wishbone_bridge.sv
