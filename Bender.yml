@@ -1,0 +1,40 @@
+# Package metadata. Required.
+package:
+  # The name of the package. Required.
+  name: rg gen reg files
+
+  # The list of package authors and contributors. Optional.
+  # By convention, authors should be listed in the form shown below.
+  authors: ["FPGA_James"]
+
+# Other packages this package depends on. Optional.
+#dependencies:
+  # Path dependency.
+  #rom: { path: "../common_lib/rom" }
+  # List of source files in this package. Optional.
+sources:
+  # Individual source files are simple string entries:
+  -rggen_rtl_pkg.sv
+  -rggen_or_reducer.sv
+  -rggen_mux.sv
+  -rggen_bit_field_if.sv
+  -rggen_bit_field.sv
+  -rggen_bit_field_w01trg.sv
+  -rggen_register_if.sv
+  -rggen_address_decoder.sv
+  -rggen_register_common.sv
+  -rggen_default_register.sv
+  -rggen_external_register.sv
+  -rggen_indirect_register.sv
+  -rggen_bus_if.sv
+  -rggen_adapter_common.sv
+  -rggen_apb_if.sv
+  -rggen_apb_adapter.sv
+  -rggen_apb_bridge.sv
+  -rggen_axi4lite_if.sv
+  -rggen_axi4lite_skid_buffer.sv
+  -rggen_axi4lite_adapter.sv
+  -rggen_axi4lite_bridge.sv
+  -rggen_wishbone_if.sv
+  -rggen_wishbone_adapter.sv
+  -rggen_wishbone_bridge.sv
